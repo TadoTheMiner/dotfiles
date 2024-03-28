@@ -1,0 +1,42 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "small",
+        "source": "opensuse",
+    },
+    "modules": [
+        {
+            "type": "os",
+            "format": "openSUSE Tumbleweed"
+        },
+        "kernel",
+        "shell",
+        "de",
+        "wm",
+        "wmtheme",
+        {
+            "type": "theme",
+            "format": "Catppuccin Mocha Lavender"
+        },
+        {
+            "type": "theme",
+            "format": "Papirus"
+        },
+        {
+            "type": "font",
+            "format": "Ubuntu"
+        },
+        "terminal",
+        {
+            "type": "terminalfont",
+            "format": "JetBrainsMono Nerd Font"
+        },
+        {
+            "type": "colors",
+            "block": {
+                "range": [1, 6],
+                "width": 4
+            }
+        }
+    ]
+}
