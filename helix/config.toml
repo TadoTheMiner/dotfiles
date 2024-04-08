@@ -1,0 +1,34 @@
+theme = "catppuccin-simplified"
+
+[editor]
+mouse = false
+auto-save = true
+color-modes = true
+shell = ["zsh", "-c"]
+completion-replace = true
+popup-border = "all"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-modification-indicator", "diagnostics"]
+center = ["file-base-name", "version-control"]
+right = ["position", "total-line-numbers", "position-percentage"]
+
+[editor.statusline.mode]
+normal = "NORMAL"
+insert = "INSERT"
+select = "SELECT"
+
+[keys.normal]
+"C-A-q" = [":xa!"]
+"C-s" = [":w"]
+
+[keys.insert]
+"esc" = ["normal_mode", ":w"]
+"C-esc" = ["normal_mode"]
+"C-A-q" = [":xa!"]
+"C-s" = [":w"]
