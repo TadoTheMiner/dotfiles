@@ -13,7 +13,6 @@ $line_break\
 $jobs\
 $battery\
 $status\
-$shell\
 $character"""
 right_format = """
 $time\
@@ -21,10 +20,7 @@ $cmd_duration"""
 time.disabled=false
 git_branch.symbol = " "
 [character]
-success_symbol = "[❯](lavender)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
-
+success_symbol = "[❯](bold lavender)"
 [directory]
 truncation_length = 4
 # Catppuccin 'lavender'
@@ -36,10 +32,6 @@ read_only = " 󰌾"
 format="[$symbol]($style)"
 disabled=false
 symbol="sudo"
-
-[shell]
-disabled=false
-style="green italic"
 [[battery.display]]
 threshold = 20
 [palettes.catppuccin_mocha]

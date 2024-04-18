@@ -19,10 +19,6 @@
             "format": "Catppuccin Mocha Lavender"
         },
         {
-            "type": "icons",
-            "format": "Papirus"
-        },
-        {
             "type": "font",
             "format": "Ubuntu"
         },

@@ -16,7 +16,7 @@ select = "underline"
 [editor.statusline]
 left = ["mode", "spinner", "file-modification-indicator", "diagnostics"]
 center = ["file-base-name", "version-control"]
-right = ["position", "total-line-numbers", "position-percentage"]
+right = ["position", "position-percentage"]
 
 [editor.statusline.mode]
 normal = "NORMAL"
@@ -24,11 +24,11 @@ insert = "INSERT"
 select = "SELECT"
 
 [keys.normal]
-"C-A-q" = [":xa!"]
+"C-A-q" = [":qa!"]
 "C-s" = [":w"]
 
 [keys.insert]
 "esc" = ["normal_mode", ":w"]
 "C-esc" = ["normal_mode"]
-"C-A-q" = [":xa!"]
+"C-A-q" = [":qa!"]
 "C-s" = [":w"]
